@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="  stylesheet" href="css/styles.css"  />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body>
 
-  You’ve used 815 GB of your storage
+<body>
+  <div class="container-1">
+    <img class="bg" src="images/bg-desktop.svg" alt="">
+    <div class="container-left">
+      <img class="fylo" src="images/logo.svg" alt="">
+      <br>
+      <div class="container-icon">
+        <img class="icon" src="images/icon-document.svg" alt="">
+        <img class="icon" src="images/icon-folder.svg" alt="">
+        <img class="icon" src="images/icon-upload.svg" alt="">
+      </div>
+    </div>
+    <div class="container-right">
+      <p>You’ve used <span>815 GB</span> of your storage</p>
+      <div class="bar-outside">
+        <div class="bar-inside">
+          <div class="dot">
+          </div>
+        </div>
+      </div>
+      <span class="zerogb">  0 GB</span>
+      <span class="thousandgb">1000 GB</span>
+      <div class="speech-bubble">
+          <p><span>185 </span> GB LEFT</p>
+          <div class="arrow">
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- You’ve used 815 GB of your storage
 
   185 GB Left
-  
+
   0 GB
-  1000 GB
-  
+  1000 GB -->
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Peter Klink</a>.
   </div>
 </body>
+
 </html>
