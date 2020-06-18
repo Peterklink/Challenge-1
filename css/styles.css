@@ -1,0 +1,142 @@
+body{
+  margin:0;
+  width:1440px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size:14px;
+}
+p{
+  color:white;
+}
+
+.bg{
+  border-top-left-radius:210px;
+}
+
+.container-1{
+  background-color: black;
+  background-color: hsl(229, 57%, 11%);
+  width:1440px;
+  margin: auto;
+  position: relative;
+  padding-top: 420px;
+}
+
+.container-left{
+  background-color: hsl(228, 56%, 26%);
+  position:absolute;
+  top:350px;
+  left:250px;
+  border-radius: 10px 80px 10px 10px;
+  width:300px;
+  height:180px;
+}
+
+.icon{
+  margin:auto auto;
+  padding:10px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 5px;
+  margin: 10px 5px 10px 10px;
+}
+
+.fylo{
+  padding:30px 30px 10px 30px;
+}
+
+.container-icon{
+  margin: 0 20px 20px 20px;
+}
+
+.container-right{
+  background-color: hsl(228, 56%, 26%);
+  position: absolute;
+  right:200px;
+  top:380px;
+  width:650px;
+  height:150px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.container-right p{
+  padding: 20px 7.5%;
+  padding-bottom: 5px;
+}
+
+.container-right span{
+  font-weight:800;
+}
+
+.bar-outside{
+  margin: auto;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  position:relative;
+  width:85%;
+  height: 15px;
+
+}
+
+.bar-inside{
+  background-image: linear-gradient( to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width:80%;
+  height:10px;
+  border-radius: 10px;
+  margin:2.5px 2.5px;
+  position:relative;
+  float:left;
+}
+
+.dot{
+  background-color:white;
+  border-radius:50%;
+  height: 7px;
+  width:7px;
+  float:right;
+  margin:1.5px 1.5px;
+  position: relative;;
+}
+
+.thousandgb{
+  float:right;
+  margin-right: 7.5%;
+  margin-top:10px;
+  color:white;
+}
+
+.zerogb{
+  float:left;
+  margin-left: 7.5%;
+  color:white;
+  margin-top:10px;
+}
+
+.speech-bubble {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto 40px;
+  max-width: 400px;
+  position: absolute;
+  top: -40%;
+  right: 7.5%;
+}
+.speech-bubble p{
+  color:hsl(229, 57%, 11%);
+  font-weight: 400;
+  padding: 0 30px;
+}
+
+.speech-bubble span{
+  font-size:3rem;
+  font-weight: 700;
+}
+.arrow{
+ width: 0;
+ height: 0;
+ border-bottom: 30px solid transparent ;
+ border-right: 30px solid white;
+ border-top: 30px solid transparent;
+ position: absolute;
+ bottom:-30px;
+ right:0;
+}
